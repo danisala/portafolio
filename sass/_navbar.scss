@@ -6,7 +6,7 @@
 .navbar-brand {
   font-weight: 700;
   letter-spacing: 1px;
-  color: #222;
+  color: $color-accent;
 }
 .navbar .nav-link {
   color: #222;
@@ -15,5 +15,14 @@
   transition: color 0.2s;
 }
 .navbar .nav-link.active, .navbar .nav-link:hover {
-  color: #1a3d2f;
+  color: $color-accent;
+}
+.navbar .nav-link.active::after {
+  background: $color-accent;
+}
+.navbar-toggler {
+  border-color: $color-accent;
+}
+.navbar-toggler-icon {
+  background-color: $color-accent;
 } 

@@ -72,3 +72,35 @@
 
 @import 'utils/colors'; // Colors
 @import 'utils/helpers'; // Helpers
+
+.shadow-elevate-hover:hover {
+  box-shadow: 0 8px 32px rgba(35,66,58,0.13);
+}
+.separator {
+  background: linear-gradient(90deg, $color-accent 60%, $color-accent-dark 100%);
+}
+.card-overlay {
+  color: $color-accent;
+}
+.btn-outline-accent {
+  border: 2px solid $color-accent;
+  color: $color-accent;
+}
+.btn-outline-accent:hover {
+  background: $color-accent;
+  color: #fff;
+  border-color: $color-accent;
+}
+.section-title {
+  color: $color-accent;
+}
+a, a:visited {
+  color: $color-accent;
+  transition: color $transition;
+}
+a:hover, a:focus {
+  color: $color-accent-dark;
+}
+.icon, .bi {
+  color: $color-accent;
+}
